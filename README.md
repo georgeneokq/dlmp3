@@ -26,4 +26,6 @@ Run ```dlmp3 "YOUTUBE_VIDEO_URL" "FILE_NAME_WITHOUT_EXTENSION" HH:MM:SS HH:MM:SS
 
 #### Example:
 
-```dlmp3 "https://youtu.be/dNQs_Bef_V8" "omae_wa_mou_shindeiru_nani" 00:00:04 00:00:08```
+```
+dlmp3 "https://youtu.be/dNQs_Bef_V8" "omae_wa_mou_shindeiru_nani" 00:00:04 00:00:08
+```
