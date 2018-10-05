@@ -9,7 +9,7 @@ Just a small program I wrote for myself to conveniently download music from yout
 
 ### Setup:
 
-Run ```dlmp3_setup.cmd``` file, which installs the ```ytdl``` node module and creates a directory to save downloaded files on your desktop.
+Run ```dlmp3_setup.cmd``` file, which globally installs the ```ytdl``` node module and creates a directory on your desktop named ```dlmp3_files``` to save downloaded files.
 
 #### Optional:
 
