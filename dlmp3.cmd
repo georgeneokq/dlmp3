@@ -15,6 +15,14 @@ SET begin=%3
 
 SET end=%4
 
+REM Prompt for input if no parameters were passed in.
+IF [%1]==[] (
+  SET /P url="Link to youtube video: "
+  SET /P fileName="Name of output file (without extension): " 
+  SET /P begin="Timestamp to start converting (HH:MM:SS): (00:00:00) "
+  SET /P end="Timestamp to stop converting (optional): "
+)
+
 if [%begin%]==[] (
   SET begin=0
 ) ELSE (
